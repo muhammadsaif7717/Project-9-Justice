@@ -27,6 +27,7 @@
             org: '#E76F51',
             red: '#F00',
             org2: '#FF8938',
+            colorP: '#B68C5A',
           }
         }
       }
@@ -48,7 +49,7 @@
     ::placeholder {
       font-family: 'Poppins', sans-serif;
       font-weight: 300;
-      color: #707070;
+      color: #e9e9e9;
       font-size: 16px;
     }
   </style>
@@ -58,17 +59,252 @@
 </head>
 
 <body class="eb-garamond">
+
   <!-- header -->
-  <header>
-    <h1>Hello World</h1>
-    <p>Hello World</p>
-    <i class="fa-solid fa-arrow-right"></i>
-    <img src="images/arrow-next-small-svgrepo-com.svg" class="w-6" alt="">
+  <header class="w-[95%] md:w-[80%] mx-auto">
+    <nav class="flex-col my-7 space-y-7 md:my-12 flex flex-col lg:flex-row items-center md:justify-between">
+      <div>
+        <img src="images/logo2.png" alt="logo">
+      </div>
+      <div class="flex items-center flex-col md:flex-row gap-y-5 md:gap-x-7 lg:gap-x-16">
+        <ul class="">
+          <li class="inline">
+            <a class="text-sm md:text-[14px]" href="#">Home &nbsp;</a>
+          </li>
+          <li class="inline">
+            <a class="text-sm md:text-[14px]" href="#">Services</a>
+          </li>
+          <li class="inline">
+            <a class="text-sm md:text-[14px]" href="#"><img src="images/arrow-next-small-svgrepo-com.svg"
+                class="w-6 inline" alt=""></a>
+          </li>
+          <li class="inline">
+            <a class="text-sm md:text-[14px]" href="#">Cases</a>
+          </li>
+          <li class="inline">
+            <a class="text-sm md:text-[14px]" href="#"><img src="images/arrow-next-small-svgrepo-com.svg"
+                class="w-6 inline" alt=""></a>
+          </li>
+          <li class="inline">
+            <a class="text-sm md:text-[14px]" href="#">Blog</a>
+          </li>
+          <li class="inline">
+            <a href="#"><img src="images/arrow-next-small-svgrepo-com.svg" class="w-6 inline" alt=""></a>
+          </li>
+          <li class="inline">
+            <a class="text-sm md:text-[14px]" href="#">Contact Us</a>
+          </li>
+          <li class="inline">
+            <a href="#"><img src="images/arrow-next-small-svgrepo-com.svg" class="w-6 inline" alt=""></a>
+          </li>
+        </ul>
+        <div>
+          <button class="btn bg-colorP text-white text-sm md:text-[16px]
+          ">Free Consultation</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <div class="bg-[url('images/banner.png')] bg-black bg-cover bg-no-repeat bg-center rounded-xl mx-auto  bg-opacity-70">
+      <div class=" space-y-8 py-5 md:py-28 px-1">
+        <h1 class="text-white text-6xl text-center">
+          We Provide Effective <br> Legal Solutions
+        </h1>
+        <p class="px-20 text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <div class="text-center">
+          <input class="py-3 px-5 rounded mr-7" type="text" placeholder="Search your services">
+        <button class="btn bg-colorP text-white border-none px-8 py-3 mt-1text-xl rounded">Search</button>
+        </div>
+      </div>
+    </div>
   </header>
+
+
   <!-- main -->
-  <main></main>
+  <main class="w-[95%] md:w-[80%] mx-auto my-14">
+    <!-- section area -->
+    <section class="mb-14">
+      <h1 class="font-bold text-3xl text-black mb-3 text-center">
+        The Legal Practice Area 
+      </h1>
+      <p class="text-lg text-gray-500 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim voluptates accusantium, pariatur qui reprehenderit!</p>
+    <!-- container -->
+    <div class="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 p-5">
+      <!-- card-1 -->
+      <div class="p-5 text-center space-y-3 border-b border-r">
+        <img src="images/business.png" class="p-5 block mx-auto" alt="">
+        <h1 class="text-2xl font-bold">Business Law</h1>
+        <p class="text-lg text-gray-500"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam blanditiis a, magnam vero quidem fugit quos inventore eaque ad rerum!</p>
+        <i class="fa-solid fa-arrow-right p-3  rounded-full bg-[#B68C5A] text-white"></i>
+      </div>
+      <!-- card-2 -->
+      <div class="p-5 text-center space-y-3 border-b border-r">
+        <img src="images/business.png" class="p-5 block mx-auto" alt="">
+        <h1 class="text-2xl font-bold">Business Law</h1>
+        <p class="text-lg text-gray-500"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam blanditiis a, magnam vero quidem fugit quos inventore eaque ad rerum!</p>
+        <i class="fa-solid fa-arrow-right p-3  rounded-full bg-[#B68C5A] text-white"></i>
+      </div>
+      <!-- card-3 -->
+      <div class="p-5 text-center space-y-3 border-b border-r">
+        <img src="images/business.png" class="p-5 block mx-auto" alt="">
+        <h1 class="text-2xl font-bold">Business Law</h1>
+        <p class="text-lg text-gray-500"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam blanditiis a, magnam vero quidem fugit quos inventore eaque ad rerum!</p>
+        <i class="fa-solid fa-arrow-right p-3  rounded-full bg-[#B68C5A] text-white"></i>
+      </div>
+      <!-- card-4 -->
+      <div class="p-5 text-center space-y-3 border-b border-r">
+        <img src="images/business.png" class="p-5 block mx-auto" alt="">
+        <h1 class="text-2xl font-bold">Business Law</h1>
+        <p class="text-lg text-gray-500"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam blanditiis a, magnam vero quidem fugit quos inventore eaque ad rerum!</p>
+        <i class="fa-solid fa-arrow-right p-3  rounded-full bg-[#B68C5A] text-white"></i>
+      </div>
+      <!-- card-5 -->
+      <div class="p-5 text-center space-y-3 border-b border-r">
+        <img src="images/business.png" class="p-5 block mx-auto" alt="">
+        <h1 class="text-2xl font-bold">Business Law</h1>
+        <p class="text-lg text-gray-500"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam blanditiis a, magnam vero quidem fugit quos inventore eaque ad rerum!</p>
+        <i class="fa-solid fa-arrow-right p-3  rounded-full bg-[#B68C5A] text-white"></i>
+      </div>
+      <!-- card-6 -->
+      <div class="p-5 text-center space-y-3 border-b border-r">
+        <img src="images/business.png" class="p-5 block mx-auto" alt="">
+        <h1 class="text-2xl font-bold">Business Law</h1>
+        <p class="text-lg text-gray-500"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam blanditiis a, magnam vero quidem fugit quos inventore eaque ad rerum!</p>
+        <i class="fa-solid fa-arrow-right p-3  rounded-full bg-[#B68C5A] text-white"></i>
+      </div>
+    </div>
+  </section>
+<!-- section client -->
+<section class="mb-14">
+  <div class="p-10 text-center space-y-3 rounded-xl" style="background: linear-gradient(to top, rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%),url(images/banner.png);">
+    <img src="images/logo.jpg" class="w-14 rounded-full block mx-auto bg-[]" alt="">
+    <h1 class="text-white font-bold text-2xl">MuHammad Saif</h1>
+    <p class="text-sm">Web Developer</p>
+    <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore error ad assumenda repudiandae ratione et, temporibus cupiditate voluptas minus numquam praesentium iusto, veritatis suscipit libero.</p>
+    <hr class="w-20 mx-auto">
+  </div>
+</section>
+<!-- section faq -->
+<section class="mb-14">
+  <h1 class="font-bold text-3xl text-black mb-3 text-center">
+    Frequently Asked Any Questions
+  </h1>
+  <p class="text-lg text-gray-500 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim voluptates accusantium, pariatur qui reprehenderit!</p>
+  <!-- container -->
+  <div class="grid grid-cols-1 md:grid-cols-2 items-center mt-10 gap-10">
+    <div class="space-y-4">
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" checked="checked" /> 
+        <div class="collapse-title text-xl font-medium">
+          Click to open this one and close others
+        </div>
+        <div class="collapse-content"> 
+          <p>hello</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          Click to open this one and close others
+        </div>
+        <div class="collapse-content"> 
+          <p>hello</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          Click to open this one and close others
+        </div>
+        <div class="collapse-content"> 
+          <p>hello</p>
+        </div>
+      </div>
+    </div>
+    <div><img src="images/faq.png" alt=""></div>
+  </div>
+  </section>
+  <!-- section Contact -->
+<section class="mb-14">
+  <h1 class="font-bold text-3xl text-black mb-3 text-center">
+    Frequently Asked Any Questions
+  </h1>
+  <p class="text-lg text-gray-500 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim voluptates accusantium, pariatur qui reprehenderit!</p>
+  <!-- container -->
+  <div class="grid grid-cols-1 md:grid-cols-2 mt-10 gap-10">
+    <div class="grid grid-cols-2 ">
+      <!-- card-1 -->
+      <div class="bg-[#F3F3F3] border p-2 space-y-1 items-center text-center">
+        <img src="images/location.png" alt="" class=" block mx-auto">
+        <h1 class="text-2xl font-bold text-black">Address</h1>
+        <h1 class="text-sm font-bold text-gray-500">Modhubag <br> 1208, Tejgaon</h1>
+      </div>
+      <!-- card-1 -->
+      <div class="bg-[#F3F3F3] border p-2 space-y-1 items-center text-center">
+        <img src="images/location.png" alt="" class=" block mx-auto">
+        <h1 class="text-2xl font-bold text-black">Address</h1>
+        <h1 class="text-sm font-bold text-gray-500">Modhubag <br> 1208, Tejgaon</h1>
+      </div>
+      <!-- card-1 -->
+      <div class="bg-[#F3F3F3] border p-2 space-y-1 items-center text-center">
+        <img src="images/location.png" alt="" class=" block mx-auto">
+        <h1 class="text-2xl font-bold text-black">Address</h1>
+        <h1 class="text-sm font-bold text-gray-500">Modhubag <br> 1208, Tejgaon</h1>
+      </div>
+      <!-- card-1 -->
+      <div class="bg-[#F3F3F3] border p-2 space-y-1 items-center text-center">
+        <img src="images/location.png" alt="" class=" block mx-auto">
+        <h1 class="text-2xl font-bold text-black">Address</h1>
+        <h1 class="text-sm font-bold text-gray-500">Modhubag <br> 1208, Tejgaon</h1>
+      </div>
+    </div>
+    <div class="space-y-2 items-center flex flex-col">
+      <input type="text" class="rounded-lg p-5 w-full bg-[#F3F3F3]" placeholder="Your Name">
+      <input type="text" class="rounded-lg p-5 w-full bg-[#F3F3F3]" placeholder="Your Name">
+      <input type="text" class="rounded-lg p-5 w-full bg-[#F3F3F3]" placeholder="Your Name">
+      <input type="text" class="rounded-lg p-5 w-full bg-[#F3F3F3]" placeholder="Your Name">
+      <button class="rounded-lg py-5 text-white text-xl w-full bg-[#B68C5A]">Send Message</button>
+    </div>
+  </div>
+  </section>
+  </main>
+  
   <!-- footer -->
-  <footer></footer>
+  <footer class="footer p-10 bg-black text-white text-base-content ">
+    <nav>
+      <h6 class="footer-title">Services</h6> 
+      <a class="link link-hover">Branding</a>
+      <a class="link link-hover">Design</a>
+      <a class="link link-hover">Marketing</a>
+      <a class="link link-hover">Advertisement</a>
+    </nav> 
+    <nav>
+      <h6 class="footer-title">Company</h6> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </nav> 
+    <nav>
+      <h6 class="footer-title">Legal</h6> 
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </nav> 
+    <form>
+      <h6 class="footer-title">Newsletter</h6> 
+      <fieldset class="form-control w-80">
+        <label class="label">
+          <span class="label-text">Enter your email address</span>
+        </label> 
+        <div class="join">
+          <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+          <button class="btn btn-primary bg-[#B68C5A] text-white border-none join-item">Subscribe</button>
+        </div>
+      </fieldset>
+    </form>
+  </footer>
 </body>
 
 </html>
